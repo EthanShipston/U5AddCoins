@@ -1,0 +1,19 @@
+﻿<Window x:Class="U5AddCoins.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U5AddCoins"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Enter Coin Amount."/>
+        <TextBox x:Name="txtToonies" Text="Toonies"/>
+        <TextBox x:Name="txtLoonies" Text="Loonies"/>
+        <TextBox x:Name="txtQuarters" Text="Quarters"/>
+        <TextBox x:Name="txtDimes" Text="Dimes"/>
+        <TextBox x:Name="txtNickels" Text="Nickels"/>
+        <Button x:Name="btnRun" Content="Run" Click="btnRun_Click"/>
+        <TextBlock x:Name="txtOutput" Text=""/>
+    </StackPanel>
+</Window>
